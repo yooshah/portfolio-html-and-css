@@ -1,0 +1,340 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+body {
+  margin: 0px;
+  font-family: sans-serif;
+  /* background-color: #080808; */
+}
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(94, 5, 94);
+  padding-left: 100px;
+  padding-right: 100px;
+  position: No;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-items {
+  width: 40%;
+  height: 100%;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-items a {
+  text-decoration: none;
+  color: white;
+}
+.nav-name{
+    transition: color 0.3s ease, font-size 0.3s ease; 
+    
+
+}
+.nav-name:hover{
+    color: #9dec3d;
+    font-size: 25px;
+
+}
+.my-name {
+  width: 20%;
+  height: 100%;
+  font-size: 30px;
+  font-weight: bolder;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: color 0.3s ease, font-size 0.3s ease; 
+  text-decoration: none;
+}
+.my-name:hover {
+    /* Text color on hover */
+    color: #9dec3d; /* Replace with the color you want on hover */
+    font-size: 35px;
+}
+#home {
+  /* padding-top: 100px; 
+    margin-top: -100px; */
+  width: 100%;
+  height: 100vh;
+  background-color: #080808;
+  display: flex;
+}
+.head-one {
+  font-size: 60px;
+  font-weight: bolder;
+  color: purple;
+}
+
+.head-color {
+  color: #9dec3d;
+}
+
+.home-para {
+  font-size: 20px;
+  color: white;
+  padding-left: 50px;
+}
+.home-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.home-left i {
+  font-size: 40px;
+  color: plum;
+}
+.home-right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 100px;
+}
+
+.social-media {
+  width: 45%;
+  height: 75px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.social-media a {
+  text-decoration: none;
+}
+
+.icon-container {
+  width: 60px;
+  height: 60px;
+  border: 3px solid plum;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 1s;
+}
+.contact-btn {
+  width: 150px;
+  height: 45px;
+  background-color: rgb(150, 217, 50);
+  border-radius: 25px;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 1s;
+}
+#about {
+  /* padding-top: 100px;  
+    margin-top: -100px; */
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+}
+.about-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+}
+.about-head {
+  font-size: 65px;
+  font-weight: bolder;
+  color: white;
+}
+
+.about-right {
+  width: 50%;
+  padding-left: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-para {
+  font-size: 20px;
+  color: white;
+  padding: 100px;
+}
+#skill {
+  /* padding-top: 100px; 
+    margin-top: -100px; */
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: aliceblue;
+}
+.skill-head {
+  font-size: 65px;
+  font-weight: bolder;
+  color: wheat;
+}
+.skill-container {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.skill-sub {
+  height: 100%;
+  width: 20%;
+  background-color: wheat;
+  color: #080808;
+  border-radius: 50px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.skill-sub i {
+  font-size: 100px;
+}
+.skill-para {
+  font-size: 20px;
+}
+.skill-icon-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#project {
+  /* padding-top: 100px; 
+    margin-top: -100px; */
+  width: 100%;
+  height: 100vh;
+  background-color: #001005;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+}
+
+.project-head {
+  font-size: 65px;
+  font-weight: bolder;
+  color: #74dd23;
+}
+.project-container {
+  width: 80%;
+  height: 50%;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-evenly;
+  align-items: center;
+}
+.project-sub {
+  height: 75%;
+  width: 30%;
+  background-color: plum;
+  border: 5px;
+  border-radius: 50px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.project-sub-one {
+  background-image: url(Images/react.png);
+  background-size: cover;
+}
+
+.project-sub-two {
+  background-image: url(Images/academic\ projects.jpeg);
+  background-size: cover;
+}
+
+.project-sub-three {
+  background-image: url(Images/floating-robot.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image horizontally and vertically */
+}
+
+.project-sub a {
+  font-size: 30px;
+  font-weight: bolder;
+  text-decoration: none;
+  color:black;
+}
+#contact {
+  /* padding-top: 100px; 
+    margin-top: -100px; */
+  width: 100%;
+  height: 100vh;
+  background-color: #080808;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.contact-head {
+  font-size: 65px;
+  font-weight: bolder;
+  color: white;
+}
+.contact-form {
+  width: 50%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.contact-input {
+  width: 90%;
+  height: 15%;
+  padding-left: 20px;
+  border-radius: 30px;
+  border: 5px solid #74dd23;
+}
+#message {
+  width: 90%;
+  height: 35%;
+  border-radius: 30px;
+  border: 5px solid #74dd23;
+  outline: none;
+}
+#send {
+  width: 200px;
+  height: 45px;
+  background-color: #74dd23;
+  border-radius: 25px;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease, font-size 0.3s ease; 
+
+}
+
+#send:hover {
+  /* Text color on hover */
+  color: purple; /* Replace with the color you want on hover */
+  font-size: 25px;
+}
